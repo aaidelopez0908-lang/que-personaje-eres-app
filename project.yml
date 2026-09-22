@@ -1,0 +1,19 @@
+name: QuePersonajeEres
+options:
+  bundleIdPrefix: com.tarea.quepersonajeeres
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  QuePersonajeEres:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    info:
+      path: Sources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tarea.quepersonajeeres.app
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_VERSION: "5.0"
